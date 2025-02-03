@@ -1,4 +1,3 @@
- cat > version-check.sh << "EOF"
  #!/bin/bash
  # A script to list version numbers of critical development tools
  # If you have tools installed in other directories, adjust PATH here AND
@@ -80,4 +79,3 @@ then echo "OK:    g++ works";
    echo "OK: nproc reports $(nproc) logical cores are available"
  fi
  EOF
- bash version-check.sh
